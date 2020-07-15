@@ -1092,17 +1092,13 @@ export class _Blank extends React.Component {
                       textAlign: "center",
                       verticalAlign: "baseline",
                       fontSize: 20,
-                      color: "#000000",
-                      backgroundColor: "#3366FF",
+                      color: "#FFFF00",
+                      backgroundColor: "#FF0000",
                       fontStyle: "normal",
-                      fontWeight: "normal",
-                      borderColor: "#000000",
-                      borderStyle: "solid",
-                      borderWidth: 0,
-                      borderLeftWidth: 0,
-                      borderRightWidth: 0,
-                      borderTopWidth: 0,
-                      borderBottomWidth: 0,
+                      fontWeight: "bold",
+                      borderColor: "#FFFFFF",
+                      borderStyle: "dotted",
+                      borderWidth: 16,
                       borderRadius: 0
                     }}
                     onPress={() => alert("Pressed!")}
