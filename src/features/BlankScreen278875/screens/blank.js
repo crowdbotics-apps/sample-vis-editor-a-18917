@@ -22,7 +22,7 @@ export class _Blank extends React.Component {
     }
   }
 
-  state = { Radio_173: true, Toggle_151: true }
+  state = {}
 
   render = () => (
     <View
@@ -448,7 +448,7 @@ export class _Blank extends React.Component {
                         }}
                         onPress={() => alert("Pressed!")}
                       >
-                        My Account
+                        Next >
                       </Button>
                     </View>
                   </View>
@@ -1170,66 +1170,6 @@ export class _Blank extends React.Component {
                   >
                     More
                   </Button>
-                  <Radio
-                    text="Radio button"
-                    disabled={false}
-                    style={{
-                      marginLeft: 0,
-                      marginRight: 0,
-                      marginTop: 5,
-                      marginBottom: 5,
-                      paddingLeft: 5,
-                      paddingRight: 5,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      overflow: "visible",
-                      textAlign: "left",
-                      verticalAlign: "baseline",
-                      borderColor: "#000000",
-                      borderStyle: "solid",
-                      borderWidth: 0,
-                      borderLeftWidth: 0,
-                      borderRightWidth: 0,
-                      borderTopWidth: 0,
-                      borderBottomWidth: 0,
-                      borderRadius: 0
-                    }}
-                    checked={this.state.Radio_173}
-                    onChange={nextChecked =>
-                      this.setState({ Radio_173: nextChecked })
-                    }
-                  />
-                  <Toggle
-                    text="switch ON/OFF"
-                    activeColor="#409EFF"
-                    inactiveColor="#C0CCDA"
-                    disabled={false}
-                    style={{
-                      marginLeft: 0,
-                      marginRight: 0,
-                      marginTop: 5,
-                      marginBottom: 5,
-                      paddingLeft: 5,
-                      paddingRight: 5,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      overflow: "visible",
-                      textAlign: "left",
-                      verticalAlign: "baseline",
-                      borderColor: "#000000",
-                      borderStyle: "solid",
-                      borderWidth: 0,
-                      borderLeftWidth: 0,
-                      borderRightWidth: 0,
-                      borderTopWidth: 0,
-                      borderBottomWidth: 0,
-                      borderRadius: 0
-                    }}
-                    checked={this.state.Toggle_151}
-                    onChange={nextChecked =>
-                      this.setState({ Toggle_151: nextChecked })
-                    }
-                  />
                 </View>
               </View>
             </View>
